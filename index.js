@@ -26,7 +26,10 @@ function currentLine(katzDeliLine){
     while (i < katzDeliLine.length){
         var position = i + 1; 
         var name = katzDeliLine[i];
-        newString += position +'. ' + name + ' ';
+        newString += position +'. ' + name;
+        if(){
+          newString += ', '
+        }
      i++;  
     }
   }
