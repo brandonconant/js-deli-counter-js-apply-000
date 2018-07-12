@@ -21,12 +21,14 @@ function currentLine(katzDeliLine){
   
   if (katzDeliLine.length === 0){
    return "The line is currently empty."
-    } else {
-      var i = 0; 
-      while (i < katzDeliLine.length){
-        var 
-        newString += ''
-      }
+  } else {
+    var i = 0; 
+    while (i < katzDeliLine.length){
+        var position = i + 1; 
+        var name = katzDeliLine[i];
+        newString += position + name;
+     i++;  
+    }
   }
   return newString; 
 }
